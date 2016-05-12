@@ -1172,3 +1172,8 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
   background-color: transparent;
 }
+
+p.small2{
+  font-size: 10px;
+  text-align: center;
+}
