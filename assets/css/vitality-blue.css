@@ -336,7 +336,7 @@ header .scroll-down .btn:hover {
   header .intro-content {
     color: white;
     text-align: center;
-    width: 50%;
+    width: 100%;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -1171,4 +1171,9 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
   background-color: transparent;
+}
+
+p.smaller{
+  text-align: center;
+  font-size: 11px;
 }
