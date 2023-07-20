@@ -6758,3 +6758,53 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.services-list-div {
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  .services-list-div {
+    flex-direction: column !important;
+    margin-right: 30px !important;
+  }
+}
+
+.services-flexed-div {
+  width: 100% !important;
+  margin: 20px !important
+}
+
+@media (max-width: 800px) {
+  .services-flexed-div {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+}
+
+.p-services {
+  margin-bottom: 35px !important;
+
+}
+
+.social-icon {
+  height: 75px;
+  width: 75px;
+  line-height: 70px !important;
+  text-align: center;
+  border: 3px solid #222222;
+  border-radius: 100%;
+  font-size: 30px !important;
+
+  margin-bottom: 10px !important;
+}
+
+.content-flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 180px !important;
+}
+
+section#locations a {
+  color: #080808;
+}
